@@ -1,0 +1,413 @@
+.container {
+    margin-left: 150px;
+    margin-right: 150px;
+}
+div {
+    margin: 0px;
+}
+body {
+    overflow-x: hidden;
+}
+.mainimg {
+    margin-top: 25px;
+    width: 750px;
+    height: 525px;
+    padding-bottom: 3px;
+    border-radius: 5%;
+}
+.accountnameclass {
+    margin: 5px;
+    font-size: 1.5em;
+}
+.btndisplay {
+    margin: 5px;
+    font-size: 1.15em;
+    background-color: rgb(85, 85, 85);
+    color: white;
+    border-radius: 7.5px;
+    border-width: 0px;
+    padding: 5px;
+}
+.viewsdisplay {
+    margin: 5px;
+    font-size: 1.5em;
+}
+.containerforimginfo {
+    width: 750px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.commentsforimg {
+    width: 750px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.containerfornopostsleft {
+    width: 750px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nopostsleftdisplay {
+    font-size: 1.5em;
+}
+.secondedcontainerforyourownaccountdisplay {
+    width: 60px;
+    display: flex;
+    height: min-content;
+    justify-content: center;
+    margin-top: 4.5px;
+}
+.maincontainerforavatardisplay {
+    display: flex;
+    justify-content: center;
+    width: min-content;
+}
+.avatarimgdisplay {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 8px;
+    margin-bottom: 1px;
+    margin-top: 5px;
+}
+.containerforavatar {
+    width: 65px;
+    height: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: black;
+    border-width: 3px;
+}
+.maincontainerforavatar {
+    border: solid gray 1px; 
+    margin-left: 2px;
+    margin-top: 2px;
+    height: 70px;
+    padding: 0px;
+}
+.avatarnamedisplay {
+    font-size: 0.75em;
+}
+/* .scroll {
+    width: 800px;
+    height: 700px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    text-align:justify;
+} */
+.titleofgoingtoaccount {
+    font-weight: normal;
+    text-align: center;
+    font-size: 1.5em;
+    border-width: 0px;
+    width: 250px;
+}
+.accountviewcontainer {
+    width: 100vmax;
+    display: flex;
+    justify-content: center;
+}
+.miniimagedisplay {
+    width: 100px;
+    height: 100px;
+}
+.containerforminiimage {
+    display: flex;
+    justify-content: center;    
+}
+.confirmaccountname {
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+::placeholder {
+    color: rgb(45, 45, 45);
+    opacity: 1;
+}
+  
+:-ms-input-placeholder {
+    color: rgb(45, 45, 45);
+}
+  
+::-ms-input-placeholder {
+    color: rgb(45, 45, 45);
+}
+.accountnametitle {
+    font-weight: normal;
+    font-size: 3em;
+    margin: 0px;
+}
+.textforimagedisplay {
+    font-size: 1.5em;
+}
+.displayforcommentstitle {
+    font-weight: normal;
+    margin: 0px;
+    padding: 0px;
+}
+.nocommentsdisplay {
+    font-weight: normal;
+    font-size: 1.25em;
+    margin: 0px;
+    padding: 0px;
+}
+.maincontainerforcomments {
+    display: flex;
+    justify-content: center;
+    width: 750px;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 35px;
+}
+.containerforcomments {
+    background-color: rgb(235, 235, 235);
+    border-radius: 7%;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+.containerforcommentsright {
+    width: 750px;
+    height: fit-content;
+    display: flex;
+    justify-content: right;
+}
+.containerforcommentsleft {
+    width: 750px;
+    height: fit-content;
+    display: flex;
+    justify-content: left;
+}
+.displayforcommenttext {
+    font-weight: normal;
+    font-size: 1.1em;
+    padding: 0px;
+    margin: 10px;
+}
+.displayforcommentaccountname {
+    font-size: 0.5em;
+    padding: 0px;
+    margin: 3.5px;
+}
+.accountinfodisplay {
+    display: flex;
+    justify-content: center;
+    width: 80px;
+}
+.persontoaddtomessagedisplay {
+    background-color: #c20000;
+    border: 0;
+    border-bottom-left-radius: .4em;
+    border-top-left-radius: .4em;
+    color: #fff;
+    padding-bottom: 2px;
+    height: 20px;
+}
+.createmessagedisplay {
+    width: 100vh;
+}
+.btndisplayforpersontoaddtomessagedisplay {
+    padding-bottom: 2px;
+    padding-top: 1px;
+    margin-left: 0px;
+    margin-right: 3.5px;
+    border-bottom-right-radius: .4em;
+    border-top-right-radius: .4em;
+    border-bottom-left-radius: 0em;
+    border-top-left-radius: 0em;
+    height: 20px;
+}
+.btn-display {
+    color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    border-radius: 3.5px;
+    font-size: 0.95em;
+}
+.btn-display:hover {
+    color: #000;
+    background-color: #ffca2c;
+    border-color: #ffc720;
+    border-radius: 3.5px;
+    font-size: 0.95em;
+}
+.input-display {
+    width: 140px;
+    font-size: 0.95em;
+    margin-top: 1px;
+    margin-bottom: 0.5px;
+    border-radius: 3.5px;
+    border-width: 1px;
+    padding: 3.25px;
+    text-align: center;
+}
+.containerforlogin {
+    width: 100vmax;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.childcontainerforlogin {
+    padding-top: 2px;
+    width: 146.5px;
+    display: flex;
+    justify-content: center;
+}
+.containerforaccountsearchresult {
+    width: 146.5px;
+    display: flex;
+    justify-content: center;
+}
+.newmessagedisplay {
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #000;
+    background-color: #ffc107;
+    border-color: #ffc107;
+    border-radius: 3.5px;
+    font-size: 1.3em;
+}
+.newmessagedisplay:hover {
+    color: #000;
+    background-color: #ffca2c;
+    border-color: #ffc720;
+    border-radius: 3.5px;
+    font-size: 1.3em;
+}
+.containerforsearchbar {
+    margin-top: 8px;
+    margin-left: 8px;
+}
+.containerforreceivedmessages {
+    margin-left: 17px;
+    margin-top: 17px;
+}
+.inputoftitleofchat {
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+.containerforconfirmnewmessage {
+    width: 146.5px;
+    display: flex;
+    justify-content: center;
+}
+.containerforpeopleonmessage {
+    margin-top: 0px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+.individualmessagedisplay {
+    background-color: rgb(235, 235, 235);
+    color: rgb(110, 110, 110);
+    border-width: 0px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+    height: 25px;
+    margin-bottom: 5px;
+}
+.displayfortitleofpeopleinchat {
+    font-size: 1.25em;
+}
+.containerforpeopleinchat {
+    width: 130px;
+    display: flex;
+    justify-content: center;
+}
+.displayfortitleofpeopleinwhohavereadmessages {
+    font-size: 1.25em;
+}
+.containerforpeopleinwhohavereadmessages {
+    width: 285px;
+    display: flex;
+    justify-content: center;
+}
+.parentcontainerforpeopleinchat {
+    margin-top: 5px;
+    border: solid gray 1px;
+    border-radius: 6px; 
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 2.5px;
+}
+.parentcontainerforpeopleinwhohavereadmessages {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid gray 1px; 
+    border-radius: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 2.5px;
+}
+.maincontainerforchatinfo {
+    display: flex;
+    justify-content: right;
+}
+.parentcontainerforindividualmessage {
+    width: 100vmax;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.containerforaddmessage {
+    width: 100vmax;
+    display: flex;
+    justify-content: center;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #0d6efd;
+    border-color: #0d6efd;
+    border-radius: 3.5px;
+    font-size: 0.95em;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+    border-radius: 3.5px;
+    font-size: 0.95em;
+}
+.containerformessagesright {
+    width: 100vmax;
+    display: flex;
+    justify-content: left;
+}
+.containerformessagesright {
+    width: 100vmax;
+    display: flex;
+    justify-content: right;
+}
+.containerforindividualmessage {
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(240, 240, 240);
+    border-radius: 9.5px;
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+    padding: 6px;
+}
+.displayfortextofmessage {
+    font-size: 1.45em;
+}
+.displayforpersonfromofmessage {
+    font-size: 0.55em;
+}
+.addmessagebtndisplay {
+    margin-top: 5px;
+}
+.backbtndisplay {
+    margin-top: 17px;
+    margin-left: 17px;
+}
